@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 4: Calcudadora JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>  
+    <div class="main">
+        <h1>Calculadora</h1>
+        <input type="text" id="campo1">
+        <input type="text" id="campo2">
+        <br><br>
+        <button onclick="suma()">+</button>
+        <button onclick="resta()">-</button>
+        <button onclick="multiplicacion()">x</button>
+        <button onclick="division()">/</button>
+        <br><br>
+        <div class="doble">
+            <button onclick="raiz()">Raíz</button>
+            <button onclick="potencia()">Potencia</button>
+            <button onclick="absoluto()">Absoluto</button>
+            <button onclick="aleatorio()">Al Azar</button>
+        </div>
+        <br>
+        <input type="text" id="resultado">
+        <br><br>
+        <div class="triple">
+            <button onclick="redondear()">Round</button>
+            <button onclick="alPiso()">Floor</button>
+            <button onclick="alTecho()">Ceil</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
